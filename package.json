@@ -1,0 +1,33 @@
+{
+  "name": "gpu-stats-reporter",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EnzoMartin/gpu-stats-reporter.git"
+  },
+  "license": "MIT",
+  "author": "Enzo Martin <enzo.r.martin@gmail.com>",
+  "contributors": [
+    "Enzo Martin <enzo.r.martin@gmail.com>"
+  ],
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "main": "app.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint lib/**/*.js test/**/*.js *.js",
+    "dev": "node app.js | bunyan -o short",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.1",
+    "csvtojson": "^1.0.0",
+    "hot-shots": "^4.2.0"
+  },
+  "devDependencies": {
+    "enzo-codestyle": "^1.0.0",
+    "eslint": "^3.2.2"
+  }
+}

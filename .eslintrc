@@ -1,0 +1,7 @@
+{
+  "extends": "./node_modules/enzo-codestyle/.eslintrc",
+  "parser": "babel-eslint",
+  "rules": {
+
+  }
+}
