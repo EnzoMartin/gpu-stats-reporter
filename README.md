@@ -5,6 +5,9 @@ Polls GPU information and reports it to Datadog
 
 Currently only support nVidia hardware
 
+#####Example
+![Dashboard example](example.png)
+
 
 ##Install
 
