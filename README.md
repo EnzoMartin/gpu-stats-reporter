@@ -7,11 +7,11 @@ Each GPU on the machine is reported separately, though not all GPUs support repo
 
 **Only supports nVidia hardware** though feel free to make a pull-request with support for other GPU manufacturers
 
-#####Example
+##### Example
 ![Dahboard example](example.png)
 
 
-##Install
+## Install
 
 * Download and install the latest [NodeJS]
 * Install the [DataDog] agent
@@ -21,15 +21,16 @@ Each GPU on the machine is reported separately, though not all GPUs support repo
 * Run `npm install` from the repo base directory
 * Run `npm run dev`
 
-##Usage
+## Usage
 
-###Config
+### Config
+
 | Name | Default | Description |
 | ------------- | ------------- |  ------------- |
 
 Copy the example [config] file in `/config/example.local.js` to `/config/local.js` and edit the settings you wish to override
 
-##License
+## License
 See [license] file
 
 [config]:config/example.local.js
